@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PlaceMarket</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://kenwheeler.github.io/slick/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://kenwheeler.github.io/slick/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="css/media.css">
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://kenwheeler.github.io/slick/slick/slick.min.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="placemarket icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".slide_box").slick({
+          autoplay: false,
+          dots: false,
+          arrows: true,
+          speed: 500,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          centerMode: true,
+        });
+      });
+    </script>
+
+    <!-- <div class="quick">
+
+
+        <nav>
+            <a href="#home_page" class="q1"></a>
+            <a href="#main_safety_page" class="q2"></a>
+            <a href="#main_limited_page" class="q3"></a>
+            <a href="#banner_page" class="q4"></a>
+            <a href="#slide_page" class="q5"></a>
+            <a href="#event_page" class="q6"></a>
+            <a href="#download_page" class="q7"></a>
+            <a href="#footer_page" class="q8"></a>
+        </nav>
+    </div> -->
+
+    <header>
+      <div class="header_box">
+        <nav class="logo_box">
+          <a href="#"><img src="images/Logo.png" alt="logo" /></a>
+        </nav>
+
+        <nav class="icon_box">
+          <ul>
+            <li>
+              <a href="#"><img src="images/twitter.png" alt="facebook" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/facebook.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/instagram.png" alt="instagram" /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="clear"></div>
+    <section id="home_page">
+      <div class="home">
+        <div class="home_box">
+          <div class="home_letter_box_parent">
+            <div class="home_letter_box">
+              <div class="home_main_letter">
+                우리 동네 중고장터<br />
+                플레이스마켓
+              </div>
+
+              <div class="home_sub_letter">
+                중고거래부터 안전한 거래까지<br />
+                쉽고 빠르고 안전하게
+              </div>
+            </div>
+
+            <div class="download_box">
+              <div class="qr_box">
+                <div class="title_box_qr">QR코드 다운로드</div>
+                <div class="qr_img">
+                  <img src="images/barcode.jpg" alt="qrcode" />
+                </div>
+              </div>
+              <div class="store_box">
+                <div class="title_box_store">앱스토어 다운로드</div>
+
+                <div class="store_ul_box">
+                  <ul>
+                    <li>
+                      <a href="#"
+                        ><img src="images/appstore.png" alt="앱스토어"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="images/googleplay.png" alt="구글플레이"
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="home_img_box">
+              <img src="images/home_phone.png" alt="홈핸드폰" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <section id="main_safety_page">
+      <div class="main_safety">
+        <div class="main_safety_box">
+          <div class="safety_letter_box_parent">
+            <div class="safety_letter_box">
+              <div class="main_number">01</div>
+
+              <div class="safety_main_letter">
+                지정장소에서 만나는<br />
+                안전한 거래
+              </div>
+
+              <div class="safety_sub_letter">
+                거래를 위해 개인정보를 공유할 필요가 없고 <br />
+                메세지로 가격을 흥정할 필요도 없습니다. <br />
+                지정된 카페에서 거래를 시작해보세요.
+              </div>
+            </div>
+
+            <div class="safety_img_box">
+              <img src="images/safety_phone.png" alt="안전한거래폰" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="main_limited_page">
+      <div class="main_limited">
+        <div class="main_limited_box">
+          <div class="limited_letter_box_parent">
+            <div class="limited_letter_box">
+              <div class="main_number">02</div>
+
+              <div class="limited_main_letter">
+                한정판 발매정보를<br />
+                한번에 확인하는
+              </div>
+
+              <div class="limited_sub_letter">
+                국내외 한정판 발매<br />
+                정보를 한눈에 살펴볼 수 있습니다.
+              </div>
+            </div>
+          </div>
+
+          <div class="limited_img_box">
+            <img src="images/limited_phone.png" alt="한정판폰" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="banner_page">
+      <div class="banner">
+        <div class="banner_letter">" 쉽고 안전하게 거래해보세요 "</div>
+      </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <section id="slide_page">
+      <div class="test">
+        <div class="slide_box">
+          <div class="slide"><img src="images/0.png" /></div>
+          <div class="slide"><img src="images/1.png" /></div>
+          <div class="slide"><img src="images/2.png" /></div>
+          <div class="slide"><img src="images/3.png" /></div>
+          <div class="slide"><img src="images/4.png" /></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <!-- <section id="event_page">
+      <div class="event">
+        <div class="event_box">
+          <div class="event_sub_letter">런칭기념</div>
+
+          <div class="event_main_letter">복주머니 랜덤쿠폰</div>
+
+          <div class="event_money">
+            <img src="images/money.png" alt="복주머니" />
+          </div>
+          <div class="event_btn">
+            <a href="#"
+              ><img src="images/money_btn.png" alt="복주머니버튼"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="download_page">
+      <div class="download">
+        <ul class="download_wrap">
+          <li class="download_title">PLACE MARKET으로 만나보세요!</li>
+          <li class="download_title_sub">
+            지금 설치시, 3000원 할인 쿠폰을 드립니다!
+          </li>
+          <li class="download_qr">
+            <img src="images/barcode.jpg" alt="qr코드" />
+          </li>
+          <li class="download_title_sub_sb">
+            휴대폰번호를 입력해주시면, 앱 설치 주소를 메세지로 보내드립니다.
+          </li>
+          <li class="download_push">
+            <div class="download_push_box">
+              <input type="text" placeholder="휴대폰 번호를 입력해주세요." /><a
+                href="#"
+                ><img src="images/send.png" alt="보내기"
+              /></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer id="footer_page">
+      <ul class="footer_wrap">
+        <li class="footer_title"><b>플레이스마켓(주)</b></li>
+        <li class="footer_address">
+          서울 중랑구 봉화산로 56 2-3층(진로마트 3층) (대표자 : 정다은)
+          사업자번호 : 543-86-54302 <br />통신판매업신고 2022-서울중랑-1135 |
+          고객센터 1123-5567 help.placemarket@gmail.com | 제휴문의 02)123-4567
+        </li>
+        <li class="footer_personal">
+          <a href="#">이용약관</a> | <a href="#">개인정보처리방침</a>
+        </li>
+        <li class="footer_copy">
+          ㈜플레이스마켓은 통신판매중개자로서 통신판매의 당사자가 아닙니다.
+          따라서, 등록된 상품, 거래정보 및 거래에 대하여 ㈜플레이스마켓은 어떠한
+          책임도 지지 않습니다. <br />Copyright © 2022 Place Market Inc. All
+          rights reserved.
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
